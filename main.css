@@ -1,0 +1,324 @@
+/* Add your custom styles here. */
+
+#legend {
+  position: absolute;
+  bottom: 40px;
+  color: white;
+  width: 250px;
+}
+
+@media (max-width: 800px) {
+  #legend {
+    position: fixed;
+    top: 0px;
+    height: 30px;
+  }
+}
+
+#band {
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(to right, #f54e5e, #f1f075, #56b881, #3887be, #4a4a8b);
+}
+/* CUSTOM STYLES */
+aside.informationbox {
+	position:absolute;
+	top:0 !important;
+	right:0 !important;
+	overflow:scroll;
+	min-width:15%;
+	max-width:15%;
+	max-height:500px;
+	border:1px solid rgba(0,0,0,.5);
+}
+.defaultinfobox	{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 195px;
+	display:block;
+	background:#8dfffa;
+	min-height:40px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:5px;
+	border:2px solid #000;
+}
+.infobox {
+  background: #FFFFFF;
+  z-index: 2;
+  border-radius: 4px;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 0px 16px rgba(0, 0, 0, 0.24);
+}
+.infoscrollfoot	{
+    text-align: center;
+    font-family: open sans, arial, helvetica;
+    font-size: 9px;
+	color:#fff;
+}
+.info-titlebox-buffer	{
+	margin-top:50px;
+}
+.info-head	{
+	border-bottom:1px solid #000;
+	margin-bottom:6px;
+}
+.info-black-title	{
+	display:block;
+	font-size:14px;
+	font-weight:bold !important;
+	padding:10px 0px 9px 16px;
+    font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	color:#000;
+	margin:0;
+}
+.info-white-title	{
+	display:block;
+	font-size:14px;
+	font-weight:bold !important;
+    font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	padding:10px 0px 9px 16px;
+	margin:0;
+}
+span.info-subtitle	{
+	display:block;
+	padding:5px 0 0 10px;
+    font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	color:#999;
+	font-size:10px
+	text-transform:capitalize;
+}
+span.info-data	{
+	display:block;
+	padding:2px 0 5px 10px;
+	font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+aside.toolbox {
+	min-width:200px !important;
+	max-width:200px !important;
+	top:auto;
+	right:auto;
+	bottom:24px !important;
+	left:24px !important;
+}
+.pop-border	{
+	border:1px solid rgba(0,0,0,.5);
+}
+
+a.close-button {
+    position: absolute !important;
+    top: 5px !important;
+    right: 5px !important;
+    padding: 1px 0px 0 0 !important;
+    height: 18px !important;
+    color: #000 !important;
+	font-size:14px;
+    font-weight:inherit !important;
+    text-align:center;
+    text-decoration:none;
+    background: rgba(255,255,255,.65) !important;
+    display: block !important;
+    border-radius: 50% !important;
+    width:20px !important;
+    height:20px !important;
+    z-index:1000 !important;
+}
+.pop-titlebox-buffer	{
+	margin-top:60px;
+}
+.pop-head	{
+	border-bottom:1px solid #000;
+	margin-bottom:6px;
+}
+.pop-black-title	{
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 0px 9px 16px;
+	color:#000;
+	margin:0;
+}
+.pop-white-title	{
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff !important;
+	padding:10px 0px 9px 16px;
+	color:#000;
+	margin:0;
+}
+span.pop-subtitle	{
+	display:block;
+	padding:5px 0 0 10px;
+	color:#999;
+	font-size:10px
+	text-transform:capitalize;
+}
+span.pop-data	{
+	display:block;
+	padding:2px 0 5px 10px;
+}
+
+
+.legendTitle	{
+	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #525252;
+    margin-bottom: 7px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.legend ul {
+  list-style-type: none;
+  margin: 0px !important;
+  padding: 0;
+}
+.legend .gasDistCircle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background:#005fec !important;
+}
+.legend .gasTransCircle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background:#00b300 !important;
+}
+.legend .HazCircle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background:#EE4D5A !important;
+}
+.legend .circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.legend .circle-outline {
+  background: #F9F9F9;
+  border: 1px solid rgba(0,0,0,0.10);
+}
+.legend .size p {
+  font-size:10px;
+  margin: 0;
+  text-transform: inherit;
+}
+.Legend-choropleth:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid rgba(0,0,0,.16);
+    border-radius: 4px;
+    content: "";
+}
+.Legend-choropleth {
+    position: relative;
+    height: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    opacity: 1;
+    background: linear-gradient(90deg , #f9f8b0 , #f9f5af , #f9f2ad , #faefab , #faeba9 , #fbe6a6 , #fbe1a3 , #fcdba0 , #fdd79d , #fdd29b , #fdcf99);
+}
+
+.Legend-choroplethAverage {
+    position: absolute;
+    bottom: -7px;
+}
+.Legend-choroplethAverage:after {
+    display: block;
+    position: absolute;
+    top: -14px;
+    width: 1px;
+    height: 12px;
+    margin-left: 50%;
+    border-left: 1px dotted rgba(0,0,0,.4);
+    content: "";
+}
+.Legend-choroplethNumbers	{
+	width:100%;
+	height:15px;
+}
+.Legend-choroplethAverageText {
+    position: absolute;
+    left: -10px;
+    white-space: nowrap;
+}
+.Legend-gasDist	{
+}
+.legend .size >div {
+  margin-right: 14px;
+  display: flex;
+  align-items: center;
+  max-width:158px !important;
+}
+.gasDistTitleText	{
+	font-size:12px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	margin:0 0 5px 0;
+	color:#005fec;
+}
+.gasTransTitleText	{
+	font-size:12px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	margin-bottom:5px;
+	color:#00b300;
+}
+.HazTitleText	{
+	font-size:12px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	margin-bottom:5px;
+	color:#EE4D5A;
+}
+.DemoTitleText	{
+	font-size:12px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	margin-bottom:5px;
+}
+.releasedText	{
+	font-size:10px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.typeOfUnit	{
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:9px;
+	font-style:italic;
+	color:F9F9F9;
+}
+div#gasDistmin, div#gasTransmin, div#hazmin	{
+	min-width:40px;
+}
+
+.hazardous-fill	{
+	background: #9A070D;
+	position:fixed;
+	top:0px;
+	width:100%;
+}
+.distribution-fill	{
+	background:#0763a8;
+	position:fixed;
+	top:0px;
+	width:100%;
+}
+.transmission-fill	{
+	background:#047a0f;
+	position:fixed;
+	top:0px;
+	width:100%;
+}
+.demographic-fill	{
+	background: #f7d263;
+}
